@@ -1,0 +1,204 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #FAFAFA;
+    font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+}
+a {
+    text-decoration: none;
+}
+#hr { 
+    display: flex; 
+    flex-direction: row; 
+    width: 285px;
+    color: #999999;
+    font-size: 13px;
+    margin: 14px 0 15px -9px;
+    font-weight: 600;
+} 
+#hr:before, 
+#hr:after { 
+    content: ""; 
+    flex: 1 1; 
+    border-bottom: 1px solid rgba(0, 0, 0, 0.100); 
+    margin: 10px;
+    
+} 
+.container {
+    width: 50%;
+    margin: 0 auto;
+    height: 820px;
+}
+.left-side {
+    width: 50%;
+    display: block;
+    float: left;
+    height: 572px;
+    position: relative;
+}
+.right-side {
+    width: 50%;
+    float: left;
+    position: relative;
+}
+.phone-frame {
+    position: absolute;
+    top: 106px;
+}
+.slide-images {
+    position: absolute;
+    top: 204px;
+    left: 135px;
+}
+.create-account {
+    border: 1px solid rgba(0, 0, 0, 0.100);
+    width: 348px;
+    height: 562px;
+    margin: 42px 0 99px 27px;
+    background: #ffffff;
+}
+.signup {
+    width: 270px;
+    margin: 29px auto;
+}
+#font-image {
+    margin-left: 44px;;
+}
+.signup h4 {
+    color: #999999;
+    font-size: 17px;
+    font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    height: 40px;
+    margin: 6px 0 0 -1px;
+    text-align: center;
+    line-height: 20px;
+}
+.signup button:nth-last-child(1) {
+width: 268px;
+height: 32px;
+background: #3897f0;
+border: 1px solid #3897f0;
+border-radius: 4px;
+color: #ffffff;
+font-size: 13px;
+font-weight: 600;
+margin: 18px 0 0 1px;
+padding-bottom: 5px;
+}
+.signup button img {
+    margin: 0px 8px 0 -3px;
+    padding-top: 5px;
+}
+input {
+    width: 258px;
+    height: 33px;
+    border: 1px solid rgba(155, 36, 36, 0.080);
+    margin: 1px 0 6px 1px;
+    border-radius: 3px;
+    font-size: 12px;
+    padding-left: 8px;
+}
+input::placeholder {
+    color: #999999;
+}
+.signup button:nth-last-child(2) {
+    width: 268px;
+    height: 30px;
+    background: #3897f0;
+    border: 1px solid #3897f0;
+    border-radius: 4px;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 400;
+    margin: 8px 0 0 1px;
+    letter-spacing: 0.01em;
+    }
+.signup p, .signup a {
+    color: #999999;
+    font-size: 14px;
+}
+.signup p {
+    width: 228px;
+    height: 58px;
+    text-align: center;
+    margin: 19px auto;
+    line-height: 18px;
+}
+.signup p a {
+    font-weight: 600;
+}
+.current-account {
+    width: 348px;
+    height: 70px;
+    border: 1px solid rgba(0, 0, 0, 0.100); 
+    margin: 48px 0 0 -1px;
+}
+.current-account p {
+    color: #262626;
+    font-size: 14px;
+    text-align: center;
+    padding-top: 9px;
+}
+.current-account p a {
+    color: #3897f0;
+    padding-left: 4px;
+}
+.get-app {
+   width: 350px;
+   height: 102px;
+   color: #262626;
+   font-size: 14px;
+}
+.get-app p {
+    margin-left: 164px;
+}
+.get-app div {
+    margin: 20px 0 0 62px;
+}
+.get-app img {
+    margin-right: 5px;
+}
+/*footer {
+    width: 1583px;
+    height: 104px;
+}
+footer div {
+    width: 1012px;
+    height: 104px;
+    font-size: 12px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+li {
+    display: inline;
+    margin-right: 13px;
+}
+ul {
+    float: left;
+    padding-left: 0;
+}
+footer p {
+margin-left: 10px;
+}
+footer a {
+    color: #003569;
+    font-weight: 600;
+} */
+footer {
+    clear: both;
+    width: 
+}
+footer {
+    background: red;
+    width: 90%;
+}
+footer div {
+    width: 70%;
+    background: yellow;
+}
+@media screen and (max-width:600px) {
+    .left-side, .right-side {
+      width: 100%;
+    }

@@ -1,0 +1,264 @@
+* { box-sizing: border-box;
+    outline: none;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Arial, Helvetica, sans-serif;
+}
+li {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+}
+button:hover {
+    cursor: pointer;
+}
+a:hover, h5 a:hover {
+    text-decoration: underline;
+}
+header label {
+    display: block;
+}
+.container {
+    width: 982px;
+    margin: auto;
+}
+header {
+    background: url('../img/banner.png');
+    height: 83px;
+    border-bottom: 1px solid black;
+}
+.header-image {
+    float: left;
+    margin-top: 29px;
+}
+.login-form {
+    float: right;
+    width: 384px;
+    height: 65px;
+    padding-left: 5px;
+}
+.login-form form div {
+    float: left;
+    color: #ffffff;
+    margin: 15px 14px 0 0;
+    font-size: 12px;
+  }
+  .login-form label {
+    padding-left: 1px;
+  }
+.login-form input {
+    height: 23px;
+    border: 1px solid black;
+    width: 150px;
+    margin-top: 5px;
+}
+.login-form input {
+    padding: 0 0 1px 3px;
+    font-size: 12px;
+}
+.login-form p {
+    margin-top: 6px;
+}
+.login-form a {
+    color: #9cb4d8;
+}
+.login-form button {
+    float: left;
+    width: 50px;
+    height: 24px;
+    border: 1px solid rgba(0, 0, 0, 0.323);
+    padding: 3px;
+    color: #ffffff;
+    background: #4267b2;
+    border-radius: 2px;
+    margin-top: 34px;
+    font-weight: bold;
+    font-size: 12px;
+}
+.login-form button:hover {
+    background:  #3B5998;
+}
+.login-form button:active {
+    background:  rgb(42, 70, 133);
+}
+main {
+    height: 595px;
+    background-image: linear-gradient(to bottom, #FEFEFE, #D3D8E8);
+    overflow: hidden;
+}
+section {
+    float: left;
+    height: 596px;
+    width: 537px;
+}
+section h1 {
+    width: 470px;
+    font-size: 20px;
+    color: #0e385f;
+    margin: 40px 0 0 0;
+    line-height: 29px;
+    word-spacing: -1px;
+    padding-left: 1px;
+}
+section img {
+    padding-left: 1px;
+}
+aside {
+    width: 401px;
+    float: right;
+}
+.create-account h1 {
+    font-size: 36px;
+    color: #333333;
+    margin: 23px 0 -9px;
+}
+.create-account h3 {
+    font-size: 19px;
+    color: #1d2129;
+    font-weight: 400;
+    margin-bottom: 21px;
+}
+.create-account input::placeholder {
+    font-size: 18px;
+    color: rgba(128, 128, 128, 0.774);
+}
+.create-account input {
+    width: 194px;
+    height: 39px;
+    border: 1px solid rgba(128, 128, 128, 0.507);
+    border-radius: 5px;
+    padding: 1px 0 0 9px;
+}
+.create-account input {
+    font-size: 18px;
+}
+#fullname, .contact {
+    width: 400px;
+    height: 49px;
+}
+#fullname div:nth-child(2) {
+    margin-left: 11px;
+}
+#fullname div {
+    float: left;
+}
+.contact input {
+    width: 399px;
+    height: 39px;
+}
+#bornday {
+    width: 58px;
+    height: 30px;
+}
+#bornmonth {
+    width: 71px;
+    height: 30px;
+}
+#bornyear {
+    width: 63px;
+    height: 30px;
+}
+.birthday h3, .gender h3 {
+    font-size: 16px;
+    color: #90949c;
+    margin: 12px 0 6px;
+}
+.birthday select {
+    border: 1px solid rgba(128, 128, 128, 0.407);
+    margin-right: -4px;
+}
+.help-button img {
+    margin: 0 0 -5px 7px;
+}
+.gender h3 {
+    margin-bottom: 7px;
+}
+.gender label {
+    color: #1D2129;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    margin-right: 11px;
+}
+.gender input {
+    margin: 7px 1px 0 9px;
+}
+.gender img {
+    margin-bottom: -4px;
+}
+.cookies p {
+    font-size: 11px;
+    color: #777777;
+    width: 320px;
+    line-height: 14px;
+    margin-top: 17px;
+}
+.cookies a {
+    color: #385998;
+    text-decoration: none;
+}
+.cookies button {
+    width: 194px;
+    height: 39px;
+    font-size: 19px;
+    color: #ffffff;
+    border: 1px solid rgba(0, 0, 0, 0.329);
+    background: linear-gradient(#69a74e, #599141 );
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.cookies button:hover {
+    background: #69a74e;
+}
+.cookies h5 {
+    font-size: 13px;
+    color: #666666;
+    margin-top: 37px;
+}
+
+footer li {
+    display: inline;
+    padding-left: 0px;
+    padding-right: 5px;
+}
+footer li a {
+    font-size: 12px;
+    color: #385998;
+    letter-spacing: 0.001em;
+}
+.selected a {
+    color: #737373;
+}
+footer ul {
+    padding-left: 1px;
+}
+footer {
+    margin-top: 53px;
+}
+ #plus {
+    border: 1px solid #73737377;
+    border-radius: 2px;
+    padding: 0 8px;
+}
+#plus:hover {
+    background: #77777723;
+    transition: 0.3s;
+}
+hr {
+    opacity: 0.3;
+    margin: -5px 0;
+}
+.summarize ul {
+    margin-top: 10px;
+}
+.summarize li {
+    padding-right: 15px;
+}
+footer p {
+font-size: 11px;
+color: #737373;
+margin-top: 41px;
+padding: 0 0 10px 1px;
+}

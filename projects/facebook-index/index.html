@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Facebook - log in or sign up</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+     <div class="container">
+        <div class="header-image">
+            <a href="#"><img src="img/header-image.png" alt="Facebook Homepage" title="Go to Facebook home"></a>
+        </div>
+        <div class="login-form">
+            <form action="login-info.php">
+                <div>
+                    <label for="email">Email or Phone</label>
+                    <input type="email" name="email" id="email">
+                </div>
+                <div>
+                        <label for="password">Password</label>
+                        <input type="password" name="password" id="password">
+                        <p><a href="#">Forgotten account?</a></p>
+                </div>
+            </form>
+            <button type="submit">Log In</button>
+        </div>
+     </div> 
+    </header>
+
+    <main>   
+      <div class="container">
+        <section>
+            <h1>Facebook helps you connect and share with the people in your life.</h1>
+            <img src="img/map.png">
+        </section>
+
+        <aside>
+            <div class="create-account">
+                <h1>Create an account</h1>
+                <h3>It's quick and easy.</h3>
+                <form action="account-info.php">
+                  <div id="fullname">
+                    <div>
+                        <input type="text" id="firstname" placeholder="First name">
+                    </div>
+                    <div>
+                        <input type="text" id="surname" placeholder="Surname">
+                    </div>
+                  </div>
+                    <div class="contact">
+                        <input type="text" id="mobile" placeholder="Mobile number or email address">
+                    </div>
+                    <div class="contact">
+                        <input type="text" id="newpassword"  placeholder="New password">
+                    </div>
+                </form>
+            </div> <!--end of create account div-->
+            <div class="birthday">
+                <h3>Birthday</h3>
+                    <select id="bornday">
+                        <option value="day"></option>
+                    </select>
+                    <select id="bornmonth">
+                        <option value="month"></option>
+                    </select>
+                    <select id="bornyear">
+                        <option value="year"></option>
+                    </select>
+                <span class="help-button"><a href="#"><img src="img/help-img.png" title="Click for more information"></a></span>
+            </div>
+            <div class="gender">
+                <h3>Gender</h3>
+                <input type="radio" value="male" id="female">
+                <label for="female">Female</label>
+                <input type="radio" value="male" id="male">
+                <label for="male">Male</label>
+                <input type="radio" value="custom" id="custom">
+                <label for="custom">Custom</label>
+                <a href="#"><img src="img/help-img.png" title="Click for more information"></a>
+            </div>
+            <div class="cookies">
+                <p>By clicking Sign Up, you agree to our <a href="#">Terms</a>, <a href="#">Data Policy</a> and <a href="#">Cookie Policy</a>. You may receive SMS notifications from us and can opt out at any time.</p>
+                <button type="button">Sign up</button>
+                <h5><a href="#">Create a Page</a> for a celebrity, band or business.</h5>
+            </div>
+        </aside>
+       </div> <!--end of container-->
+    </main>
+
+    <footer>
+    <div class="container"> 
+         <div class="languages">
+          <ul>
+            <li class="selected"><a href="#" title="English">English (UK)</a></li>
+            <li><a href="#" title="Russian">Русский</a></li>
+            <li><a href="#" title="Azerbaijani">Azərbaycan dili</a></li>
+            <li><a href="#" title="Turkish">Türkçe</a></li>
+            <li><a href="#" title="Arabic">العربية</a></li>
+            <li><a href="#" title="German">Deutsch</a></li>
+            <li><a href="#" title="French (France)">Français (France)</a></li>
+            <li><a href="#" title="Persian">فارسی</a></li>
+            <li><a href="#" title="Georgian">ქართული</a></li>
+            <li><a href="#" title="Spanish">Español</a></li>
+            <li><a href="#" title="Portugese (Brazil)">Português (Brasil)</a></li>
+            <li id="plus"><a href="#" title="Show more languages"><img src="img/plus.png" alt="" width="12" height="12"></a></li>
+          </ul>
+         </div>
+         <hr>
+         <div class="summarize">
+          <ul>
+            <li><a href="#" title="Sign up for Facebook">Sign Up</a></li>
+            <li><a href="#" title="Log in to Facebook">Log In</a></li>
+            <li><a href="#" title="Take a look at Messenger.">Messenger</a></li>
+            <li><a href="#" title="Facebook Lite for Android.">Facebook Lite</a></li>
+            <li><a href="#" title="Browse our people directory.">People</a></li>
+            <li><a href="#" title="Browse our Pages directory.">Pages</a></li>
+            <li><a href="#">Page categories</a></li>
+            <li><a href="#" title="Take a look at popular places on Facebook.">Places</a></li>
+            <li><a href="#" title="Check out Facebook games.">Games</a></li>
+            <li><a href="#" title="Browse our Pages directory.">Locations</a></li>
+            <li><a href="#" title="Browse our Marketplace product directory.">Marketplace</a></li>
+            <li><a href="#" title="Browse our Groups directory">Groups</a></li>
+            <li><a href="#" title="Take a look at Instagram">Instagram</a></li>
+            <li><a href="#" title="Browse our Local Lists directory.">Local</a></li>
+            <li><a href="#" title="Donate to worthy causes">Fundraisers</a></li>
+            <li><a href="#" title="Browse our Facebook Services directory.">Services</a></li>
+            <li><a href="#"title="Read our blog, discover the resource centre and find job opportunities.">About</a></li>
+            <li><a href="#" title="Advertise on Facebook">Create ad</a></li>
+            <li><a href="#" title="Create a Page">Create Page</a></li>
+            <li><a href="#" title="Develop on our platform.">Developers</a></li>
+            <li><a href="#" title="Make your next career move to our brilliant company.">Careers</a></li>
+            <li><a href="#" title="Learn about your privacy and Facebook.">Privacy</a></li>
+            <li><a href="#" title="Learn about cookies and Facebook.">Cookies</a></li>
+            <li><a href="#" title="Learn abour AdChoices.">AdChoices</a></li>
+            <li><a href="#" title="Review our terms and policies.">Terms</a></li>
+            <li><a href="#">Account security</a></li>
+            <li><a href="#">Login help</a></li>
+            <li><a href="#" title="Visit our Help Centre.">Help</a></li>
+          </ul>
+         </div>
+         <p>Facebook &copy; 2019</p>
+   </div>
+</footer>
+</body>
+</html>

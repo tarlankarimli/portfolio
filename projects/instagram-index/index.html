@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Instagram</title>
+</head>
+<body>
+        <div class="container">
+            <div class="left-side">
+                <div class="phone-frame">
+                    <img src="images/frame-img.png">
+                </div>
+                <div class="slide-images">
+                        <img class="mySlides w3-animate-fading" src="images/slide-1.jpg">
+                        <img class="mySlides w3-animate-fading" src="images/slide-2.jpg">
+                        <img class="mySlides w3-animate-fading" src="images/slide-3.jpg">
+                        <img class="mySlides w3-animate-fading" src="images/slide-4.jpg">
+                        <img class="mySlides w3-animate-fading" src="images/slide-5.jpg">
+                </div>
+            </div>
+            <div class="right-side">
+                <div class="create-account">
+                    <div class="signup">
+                      <div id="font-image" ><img src="images/font.png"></div>
+                      <h4>Sign up to see photos and videos from your friends.</h4>
+                        <div><button type="submit"><span><img src="images/fb-icon3.png"></span>Log in with Facebook</button></div>
+                        <div id="hr">OR</div>
+                        <form action="account-info.php">
+                            <div><input type="text" placeholder="Mobile Number or Email"></div>
+                            <div><input type="text" placeholder="Full Name"></div>
+                            <div><input type="text" placeholder="Username"></div>
+                            <div><input type="text" placeholder="Password"></div>
+                        </form>
+                        <button type="button">Sign up</button>
+                        <p>By signing up, you agree to our <a href="#">Terms</a> , <a href="#">Data Policy</a> and <a href="#">Cookies Policy</a> .</p>
+                    </div>
+                    <div class="current-account">
+                        <p>Have an account?<a href="#">Log in</a></p>
+                    </div>
+                </div>
+                <div class="get-app">
+                    <p>Get the app.</p>
+                    <div>
+                        <img src="images/appstore.png" alt="appstore">
+                        <img src="images/googleplay.png" alt="googleplay">
+                    </div>
+                </div>
+            </div>
+        </div>
+            <footer>
+                <div>
+                    <ul>
+                        <li><a href="#">ABOUT US</a></li>
+                        <li><a href="#">SUPPORT</a></li>
+                        <li><a href="#">PRESS</a></li>
+                        <li><a href="#">API</a></li>
+                        <li><a href="#">JOBS</a></li>
+                        <li><a href="#">PRIVACY</a></li>
+                        <li><a href="#">TERMS</a></li>
+                        <li><a href="#">DIRECTORY</a></li>
+                        <li><a href="#">PROFILES</a></li>
+                        <li><a href="#">HASHTAGS</a></li>
+                        <li><a href="#">LANGUAGE</a></li>
+                    </ul>
+                    <p> &copy;2019 INSTAGRAM FROM FACEBOOK</p>
+                </div>
+            </footer>
+        
+    <script>
+        var myIndex = 0;
+        carousel();
+        
+        function carousel() {
+          var i;
+          var x = document.getElementsByClassName("mySlides");
+          for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";  
+          }
+          myIndex++;
+          if (myIndex > x.length) {myIndex = 1}    
+          x[myIndex-1].style.display = "block";  
+          setTimeout(carousel, 2000); // Change image every 2 seconds
+        }
+        </script>
+</body>
+</html>

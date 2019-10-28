@@ -1,0 +1,124 @@
+* {
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+a {
+    color: black;
+}
+hr {
+    height: 1px;
+    background: #578F8C;
+}
+body {
+    background: url('../img/bg-img.jpg');
+    background-size: 100vw;
+}
+.container {
+    width: 820px;
+    margin: 60px auto;
+    background: #fff;
+    border-radius: 5px;
+    overflow: auto;
+}
+.header img:first-child {
+    border: 1px solid #fff;
+    border-radius: 100px;
+    float: left;
+}
+.content {
+    padding: 25px 35px;
+}
+.title {
+    float: left;
+    margin: 15px 0 0 20px;
+}
+.contact {
+    float: right;
+    font-size: 11px;
+    font-weight: 600;
+}
+.title h1 {
+    font-size: 30px;
+    font-weight: 400;
+}
+.title h3 {
+    font-size: 16px;
+    font-weight: 400;
+    color: #479099;
+}
+.contact p {
+    float: left;
+    width: 160px;
+    margin-right: 10px;
+    text-align: right;
+}
+.contact li {
+    margin-bottom: 8px;
+}
+#motivation {
+    font-size: 14px;
+    padding-top: 30px;
+    clear: both;
+    text-align: justify;
+}
+.main {
+    margin-top: 15px;
+}
+.left-side {
+    width: 45%;
+    float: left;
+}
+.right-side {
+    width: 45%;
+    float: right;
+}
+.section {
+    font-size: 21px;
+    margin-top: 40px;
+}
+.main ul, #education .position {
+    margin-top: 20px;
+}
+.position {
+    font-size: 18px;
+}
+#projects h3 {
+    float: left;
+    width: 250px;
+    margin-right: 20px;
+}
+#projects li {
+    margin-bottom: 20px;
+}
+#projects h3::before {
+    content: "—  ";
+    color: #479099;
+}
+#experience p::before {
+    content: "- ";
+    color: #479099;
+}
+#experience p {
+    text-align: justify;
+}
+.company {
+    font-size: 18px;
+    font-weight: 400;
+}
+.work-duration {
+    font-size: 12px;
+    font-style: italic;
+    color: #30727a;
+    font-weight: 600;
+    margin-top: 8px;
+}
+h5 {
+    color: #388c96;
+    margin: 8px 0 5px 0;
+}
+#experience .position {
+    margin-top: 20px;
+}
+
