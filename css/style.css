@@ -16,11 +16,11 @@ body {
     background-size: 100vw;
 }
 .container {
-    width: 820px;
+    width: 920px;
     margin: 60px auto;
     background: #fff;
     border-radius: 5px;
-    overflow: auto;
+  height: 1280px;
 }
 .header img:first-child {
     border: 1px solid #fff;
@@ -36,7 +36,7 @@ body {
 }
 .contact {
     float: right;
-    font-size: 11px;
+    font-size: 12px;
     font-weight: 600;
 }
 .title h1 {
@@ -62,6 +62,7 @@ body {
     padding-top: 30px;
     clear: both;
     text-align: justify;
+    line-height: 1.4em;
 }
 .main {
     margin-top: 15px;
@@ -102,6 +103,10 @@ body {
 }
 #experience p {
     text-align: justify;
+    margin-top: 8px;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 1.5em;
 }
 .company {
     font-size: 18px;
@@ -121,4 +126,36 @@ h5 {
 #experience .position {
     margin-top: 20px;
 }
-
+#skills p {
+    float: left;
+    width: 185px;
+    margin-right: 50px;
+}
+#skills li {
+    margin-top: 20px;
+}
+#soft-skills li {
+    display: inline-block;
+    background: #479099;
+    color: #fff;
+    height: 20px;
+    padding: 5px 5px;
+    margin: 8px 8px 0 0;
+    border-radius: 5px;  
+}
+#languages p {
+    float: left;
+    width: 70px;
+    margin-right: 150px;
+}
+#languages li {
+    margin-top: 10px;
+}
+#interests p {
+    display: inline;
+    margin-left: 8px;
+}
+#interests li {
+    display: inline;
+    margin-right: 100px;
+}
