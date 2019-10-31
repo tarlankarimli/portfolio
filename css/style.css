@@ -203,4 +203,16 @@ h4 {
     .left-side, .right-side {
         width: 100%;
     }
+    #motivation {
+        width: 50%;
+    }
+    #soft-skills li {
+        display: block;
+        width: 40%;
+        text-align: center;
+    }
   }
+
+  .preview img:hover {
+    content: url('../img/icons/preview-blue.png');
+ }  
